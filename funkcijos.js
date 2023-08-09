@@ -158,4 +158,17 @@ function rndStrToH1(str) {
 }
 rndStrToH1(makeid(10));
 
+console.log("=======Sunkesni 4 užd.==========");
+// Parašykite funkciją, kuri skaičiuotų, iš kiek sveikų skaičių jos argumentas dalijasi be liekanos (išskyrus vienetą ir patį save)
+
+function sveikieji(skc){
+    count=0;
+    for (i=2; i < skc ; i++) { 
+        if (skc % i ==0) {
+            count++;
+         }
+    }
+    console.log(count);
+}
+sveikieji(10);
 
